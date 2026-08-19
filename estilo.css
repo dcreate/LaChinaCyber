@@ -14,14 +14,14 @@
     }
 
     .card {
+      color: #D63AC9;
       width: 100%;
-      max-width: 400px;
-    
+      max-width: 400px;    
       padding: 30px 25px;
       border-radius: 20px;
       text-align: center;
       box-shadow: 0 8px 30px rgba(0,0,0,.15);
-       background-image: url('img/logo.jpg');
+      background-image: url('img/logo.jpg');
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
