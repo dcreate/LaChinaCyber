@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1 /">
+  <title>La China Cyber</title>
+  <link rel="stylesheet" href="estilo.css" />
+</head>
+<body>
+  <div class="card">
+    <h1>💳 Número de tarjeta</h1>
+    <div class="number" id="numero">
+      Cargando...
+    </div>
+    <button onclick="copiarNumero()">
+      📋 Copiar número
+    </button>
+    <div id="mensaje"></div>
+    <div class="qr">
+      <h3>Escanea el código QR</h3>
+      <img id="qrImagen" alt="Código QR">
+    </div>
+    <div class="aviso">
+      Mantén esta información privada y compártela únicamente con personas de confianza.
+    </div>
+  </div>
+  
+  <script src="generador.js"></script>
+
+ 
+
+</body>
+</html>
