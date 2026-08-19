@@ -54,7 +54,7 @@
     // GENERAR QR
     // ==================================================
 
-    const paginaActual = window.location.href;
+    const paginaActual = CARD_NUMBER;
 
     const qrURL =
       "https://api.qrserver.com/v1/create-qr-code/?size=300x300&data="
