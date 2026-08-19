@@ -14,7 +14,7 @@
     }
 
     .card {
-      color: #D63AC9;
+      
       width: 100%;
       max-width: 400px;    
       padding: 30px 25px;
@@ -29,8 +29,9 @@
     }
 
     h1 {
+      color: #8A0E81;
       margin-top: 0;
-      font-size: 24px;
+      font-size: 28px;
     }
 
     .number {
@@ -62,7 +63,7 @@
 
     #mensaje {
       margin-top: 15px;
-      color: #198754;
+      color: #d6c316;
       font-weight: bold;
       min-height: 20px;
     }
@@ -72,13 +73,14 @@
     }
 
     .qr img {
-      width: 220px;
-      height: 220px;
+      width: 150px;
+      height: 150px;
       max-width: 100%;
     }
 
     .aviso {
+      font-weight: bold;
       margin-top: 20px;
-      font-size: 12px;
-      color: #777;
+      font-size: 16px;
+      color: #0e0d0d;
     }
