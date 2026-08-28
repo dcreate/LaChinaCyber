@@ -12,7 +12,7 @@
       background-image: url(img/logodrago.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: auto;
+  background-size: cover;
       padding: 20px;
     }
 
