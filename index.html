@@ -16,27 +16,87 @@
   <link rel="stylesheet" href="estilo.css" />
 </head>
 <body>
+
   <div class="card">
-    <h1>💳 Número de tarjeta</h1>
-    <div class="number" id="numero">
-      Cargando...
+
+    <h1>💳 Datos de tarjeta</h1>
+
+
+    <!-- =========================
+         TITULAR
+         ========================= -->
+
+    <div class="dato">
+
+      <span class="etiqueta">
+        TITULAR
+      </span>
+
+      <div class="valor" id="titular">
+        Cargando...
+      </div>
+
+      <button
+        class="boton"
+        id="botonTitular"
+        onclick="copiarDato('titular', 'botonTitular', 'Titular copiado')">
+
+        📋 Copiar nombre
+
+      </button>
+
     </div>
-    <button onclick="copiarNumero()">
-      📋 Copiar número
-    </button>
+
+
+    <!-- =========================
+         TARJETA
+         ========================= -->
+
+    <div class="dato">
+
+      <span class="etiqueta">
+        NÚMERO DE TARJETA
+      </span>
+
+      <div class="valor" id="numero">
+        Cargando...
+      </div>
+
+      <button
+        class="boton"
+        id="botonTarjeta"
+        onclick="copiarDato('numero', 'botonTarjeta', 'Número copiado')">
+
+        📋 Copiar número
+
+      </button>
+
+    </div>
+
+
     <div id="mensaje"></div>
+
+
+    <!-- =========================
+         QR
+         ========================= -->
+
     <div class="qr">
-      <h3>Escanea el código QR</h3>
-      <img id="qrImagen" alt="Código QR">
+
+      <h3>📱 Escanea el código QR</h3>
+
+      <img
+        id="qrImagen"
+        alt="Código QR">
+
     </div>
+
+
     <div class="aviso">
-      Mantén esta información privada y compártela únicamente con personas de confianza.
+      Mantén esta información privada y compártela
+      únicamente con personas de confianza.
     </div>
+
   </div>
-  
-  <script src="generador.js"></script>
-
- 
-
 </body>
 </html>
